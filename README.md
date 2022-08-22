@@ -47,6 +47,18 @@ qna_type VARCHAR(15) NOT NULL,
 qna_rep VARCHAR(200)
 );
 
+CREATE TABLE ord(
+order_num int primary key,
+order_pd_num int not null,
+order_quan int not null,
+order_pd_price int not null,
+order_user_email varchar(50) not null,
+order_date date not null,
+order_status varchar(10),
+CONSTRAINT ord_pdn_fk foreign key (order_pd_num) references product(pd_num),
+CONSTRAINT ord_u_fk foreign key (order_user_email) references user(user_email)
+); 
+
 ex) 상품 등록
 insert into product values(1, '국내도서', '사람1', 10000, 6, '역행자_표지.jpg', '책1', '역행자_소개.jpg', 0, now());
 insert into product values(2, 'eBook', '사람1', 10000, 6, '역행자_표지.jpg', '책1', '역행자_소개.jpg', 0, now());
