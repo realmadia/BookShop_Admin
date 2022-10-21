@@ -10,6 +10,6 @@
 처음만든 체계적인 프로젝트이며 GIT 사용이 서툴었던 프로젝트입니다.
 
  <h1>Link</h1>
-  <a href="itwillbs12.cafe24.com/BookShop/">Project</a><br>
+  <a href="http://itwillbs12.cafe24.com/BookShop/">Project</a><br>
   <a href="https://docs.google.com/presentation/d/1ld0_cfa0Q1226DgZ5CS0j7ifpm39rstJQ-p3HfPVgHs/edit#slide=id.g14b542cf44d_0_257">PPT</a>
   
